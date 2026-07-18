@@ -11,6 +11,10 @@ for(const browser of browsers) {
     }
 }
 
+for(let i = 0; i < browsers.length; i++) {
+    console.log('Testing on ' + browsers[i])
+}
+
 // Map
 const upperCase = browsers.map(browser => browser.toUpperCase());
 console.log(upperCase)
